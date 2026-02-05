@@ -11,7 +11,7 @@ Drop your own `background.mp3` in this repo to pair with each scroll.
 
 ## 🛠️ Format
 
-Every scroll is:
+Every scroll is: 
 - Mobile-friendly
 - Click-to-advance or auto-scroll enabled
 - Stylized with retro terminal fonts + animated highlight logic
