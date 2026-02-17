@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Letter From Birmingham Jail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #000;
+      color: #0f0;
+      font-family: monospace;
+      padding: 2rem;
+    }
+    .segment {
+      display: none;
+      margin-bottom: 1.5em;
+      line-height: 1.6;
+    }
+    .highlight-liberty { color: #00f0ff; font-weight: bold; }
+    .highlight-death { color: #ff0055; font-weight: bold; }
+    .highlight-truth { color: #ffff00; font-weight: bold; }
+    .highlight-slavery { color: #ff8800; font-weight: bold; }
+    #continue {
+      color: #ccc;
+      font-style: italic;
+      margin-top: 2rem;
+    }
+    #menu {
+      background: #111;
+      padding: 1em;
+      border: 1px solid #0f0;
+      margin-bottom: 2em;
+    }
+    button {
+      margin-right: 1em;
+      padding: 0.5em 1em;
+      background: #0f0;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+#cursor {
+      display: inline-block;
+      width: 10px;
+      height: 20px;
+      background: #0f0;
+      animation: blink 1s infinite;
+      margin-left: 5px;
+      vertical-align: middle;
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .cursor-hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <h1>📜 Letter From Birmingham Jail – Interactive Scroll</h1>
+  <div id="menu">
+    <p>🧭 Choose your mode:</p>
+    <button onclick="setMode('manual')">🔲 Tap/Press for Next</button>
+    <button onclick="setMode('auto')">▶️ Auto-Scroll</button>
+  </div>
+
+<div id="zine">
+    <div class="segment" data-delay="0">The famous letter of Martin Luther King to to eight white religious leaders from Alabama, written on April 16, 1963, and entitled,</div>
+<div class="segment" data-delay="1">Letter From Birmingham Jail</div>
+<div class="segment" data-delay="2">Martin Luther King Jr. wrote the "Letter from Birmingham Jail" to eight white religious leaders from Alabama, including clergymen from various faiths such as Protestant, Catholic, and Jewish denominations.</div>
+<div class="segment" data-delay="3">These leaders had issued a public statement criticizing King’s nonviolent demonstrations in Birmingham as "unwise and untimely," urging him to pursue change through negotiation rather than direct action.</div>
+<div class="segment" data-delay="4">In his letter, King directly addressed their concerns, defending the necessity of nonviolent protest and the urgency of the civil rights struggle.</div>
+<div class="segment" data-delay="5">The eight clergy were:</div>
+<div class="segment" data-delay="6">Rev. Edward Ramage, First Presbyterian Church
+Rev. Earl Stallings, First Baptist Church
+Rabbi Milton Grafman, Temple Emanu-El
+Bishop Joseph A. Durick, Catholic Diocese of Birmingham
+Bishop Nolan Harmon, Methodist Church
+Bishop Charles C.J. Carpenter, Episcopal Church
+Bishop George M. Murray, Episcopal Church
+Bishop Paul Hardin, Methodist Church</div>
+<div class="segment" data-delay="7">My Dear Fellow Clergymen,
+While confined here in the Birmingham City Jail, I came across your recent
+statement calling our present activities “unwise and untimely.” Seldom, if ever, do I pause to answer criticism of my work and ideas … But since I feel that you are men of genuine good will and your criticisms are sincerely set forth, I would like to answer your statement in what I hope will be patient and reasonable terms...</div>
+<div class="segment" data-delay="9">I think I should give the reason for my being in Birmingham, since you have been
+influenced by the argument of “outsiders coming in.” I have the honor of serving as president of the Southern Christian Leadership Conference, an organization operating in every Southern state with headquarters in Atlanta, Georgia. We have some 85 affiliate organizations all across the South … Several months ago our local affiliate here in Birmingham invited us to be on call to engage in a nonviolent direct action program if such were deemed necessary. We readily consented.</div>
+<div class="segment" data-delay="10">In any nonviolent campaign there are four basic steps:</div>
+<div class="segment" data-delay="11">1) collection of the facts to
+determine whether injustices are alive</div>
+<div class="segment" data-delay="12">2) negotiation</div>
+<div class="segment" data-delay="13">3) self-purification</div>
+<div class="segment" data-delay="14">4) direct action</div>
+<div class="segment" data-delay="15">We have gone through all of these steps in Birmingham … Birmingham is probably the most thoroughly segregated city in the United States. Its ugly record of police brutality is known in every section of the country. Its unjust treatment of Negroes in the courts is a notorious reality. There have been more unsolved bombings of Negro homes and churches in Birmingham than in any city in this nation. These are the hard, brutal, and unbelievable facts.
+
+On the basis of these
+conditions Negro leaders sought to negotiate with the city fathers. But the political leaders consistently refused to engage in good faith negotiation.</div>
+<div class="segment" data-delay="16">Then came the opportunity last September to talk with some of the leaders of the economic community. In these negotiating sessions certain promises were made by the merchants—such as the promise to remove the humiliating racial signs from the stores. On the basis of these promises Reverend Shuttlesworth and the leaders of the Alabama Christian Movement for Human Rights agreed to call a moratorium on any type of demonstrations. As the weeks and months unfolded we realized that we were the victims of a broken promise. The signs remained. As in so many experiences in the past, we were confronted with blasted hopes, and the dark shadow of a deep disappointment settled upon us</div>
+<div class="segment" data-delay="17">So we had no alternative except that of preparing for direct action, whereby we would present our very bodies as a means of laying our case before the conscience of the local and national community. We were not unmindful of the difficulties involved. So we decided to go through the process of self-purification</div>
+<div class="segment" data-delay="18">We started having workshops on nonviolence and repeatedly asked ourselves the questions, “are you able to accept the blows without retaliating?” “Are you able to endure the ordeals of jail?” </div>
+<div class="segment" data-delay="19">You may well ask, “Why direct action? Why sit-ins, marches, etc.? Isn’t negotiation a better path?” You are exactly right in your call for negotiation. Indeed, this is the purpose of direct action. Nonviolent direct action seeks to create such a crisis and establish such creative tension that a community that has constantly refused to negotiate is forced to confront the issue.</div>
+<div class="segment" data-delay="20">My friends, I must say to you that we have not made a single gain in civil rights without legal and nonviolent pressure.</div>
+<div class="segment" data-delay="21">History is the long and tragic story of the fact that privileged groups seldom give up their privileges voluntarily.</div>
+<div class="segment" data-delay="22">Individuals may
+see the moral light and give up their unjust posture; but as Reinhold Niebuhr has reminded us, groups are more immoral than individuals.</div>
+<div class="segment" data-delay="23">We know through painful experience that freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.</div>
+<div class="segment" data-delay="24">Frankly I have never yet engaged in a direct action movement that was “well timed,” according to the timetable of those who have not suffered unduly from the disease of segregation. For years now I have heard the word “Wait!” It rings in the ear of every Negro with a piercing familiarity. This “wait” has almost always meant “never.” It has been a tranquilizing Thalidomide, relieving the emotional stress for a moment, only to give birth to an ill-formed infant of frustration. We must come to see with the distinguished jurist of yesterday that “justice too long delayed is justice denied.” We have waited for more than 340 years for our constitutional and God-given rights. The nations of Asia and Africa are moving with jetlike speed toward the goal of political independence, and we still creep at horse and buggy pace toward the gaining of a cup of coffee at a lunch counter.</div>
+<div class="segment" data-delay="25">I guess it is easy for those who have never felt the stinging darts of segregation to say wait. But when you have seen vicious mobs lynch your mothers and fathers at will and drown your sisters and brothers at whim; 
+
+when you have seen hate-filled policemen curse, kick, brutalize, and even kill your black brothers and sisters with impunity; when you see the vast majority of your 20 million Negro brothers smothering in an airtight cage of poverty in the midst of an affluent society; 
+
+when you suddenly find your tongue twisted and your speech stammering as you seek to explain to your six-year-old daughter why she can’t go to the public amusement park that has just been advertised on television, and see the tears welling up in her little eyes when she is told that Funtown is closed to colored children, and see the depressing clouds of inferiority begin to form in her little mental sky, and see her begin to distort her little personality by unconsciously developing a bitterness toward white people; 
+
+when you have to concoct an answer for a five-year-old son who is asking in agonizing pathos: “Daddy, why do white people treat colored people so mean?” 
+
+when you take a cross country drive and find it necessary to sleep night after night in the uncomfortable corners of your automobile because no motel will accept you; 
+
+when you are humiliated day in and day out by nagging signs reading “white” men and “colored”
+
+when your first name becomes “nigger” and your middle name becomes “boy” (however old you are) and your last name becomes “John,” and 
+
+when your wife and mother are never given the respected title of “Mrs.” when you are harried by day and haunted by night by the fact that you are a Negro, living constantly at tip-toe stance, never quite knowing what to expect next, and plagued with inner fears and outer resentments; 
+
+when you are forever fighting a degenerating sense of “nobodiness”—then you will understand why we find it difficult to wait.</div>
+<div class="segment" data-delay="27">There comes a time when the cup of endurance runs over, and men are no longer willing to be plunged into an abyss of injustice where they experience the bleakness of corroding despair. I hope, sirs, you can understand our legitimate and unavoidable impatience.
+
+I must make two honest confessions to you, my Christian and Jewish brothers. First, I must confess that over the last few years I have been gravely disappointed withthe white moderate. 
+
+I have almost reached the regrettable conclusion that the Negro’s great stumbling block in the stride toward freedom is not the White citizens’ “Councilor” or the Ku Klux Klanner, but the white moderate who is more devoted to “order” than to justice; 
+
+who prefers a negative peace which is the absence of tension to a positive peace which is the presence of justice; 
+
+who constantly says “I agree with you in the goal you seek, but I can’t agree with your methods of direst action” 
+
+who paternistically feels that he can set the timetable for another man’s freedom; 
+
+who lives by the myth of time and who constantly advises the Negro to wait until a “more convenient season.”</div>
+<div class="segment" data-delay="28">Shallow understanding from people of good will is more frustrating than absolute misunderstanding from people of ill will. Lukewarm acceptance is much more bewildering than outright rejection.
+
+You spoke of our activity in Birmingham as extreme. At first I was rather disappointed that fellow clergymen would see my nonviolent efforts as those of an extremist. I started thinking about the fact that I stand in the middle of two opposing forces in the Negro community. One is a force of complacency made up of Negroes who, as a result of long years of oppression, have been so completely drained of self-respect and a sense of “somebodiness” that they have adjusted to segregation, and a few Negroes in the middle class who, because of a degree of academic and economic security, and at points they profit from segregation, have unconsciously become insensitive to the problems of the masses.</div>
+<div class="segment" data-delay="29">The other force is one of bitterness and hatred and comes perilously close to advocating violence. 
+
+It is expressed in the various black nationalist groups that are springing up over the nation, the largest and best known being Elijah Muhammad’s Muslim movement. This movement is nourished by the contemporary frustration over the continued existence of racial discrimination. It is made up of people who have lost faith in America, who have absolutely repudiated Christianity, and who have concluded that the white man in an incurable “devil.”</div>
+<div class="segment" data-delay="30">So I have not said to my people, “Get rid of your discontent.” But I have tried to say that this normal and healthy discontent can be channeled through the creative outlet of nonviolent direct action.
+
+In spite of my shattered dreams of the past, I came to Birmingham with the hope that the white religious leadership in the community would see the justice of our cause and, with deep moral concern, serve as the channel through which our just grievances could get to the power structure. I had hoped that each of you would understand. 
+
+But again I have been disappointed. 
+
+I have heard numerous religious leaders of the South call upon their worshippers to comply with a desegregation decision because it is the law, but I have longed to hear white ministers say follow this decree because integration is morally right and the Negro is your brother</div>
+<div class="segment" data-delay="31">In the midst of blatant injustices inflicted upon the Negro, I have watched white churches stand on the sideline and merely mouth pious irrelevancies and sanctimonious trivialities. 
+
+In the midst of a mighty struggle to rid our nation of racial and economic injustice, I have heard so many ministers say, “Those are social issues with which the Gospel has no real concern,” and I have watched so many churches commit themselves to a completely other-worldly religion which made a strange distinction between body and soul, the sacred and the secular.</div>
+<div class="segment" data-delay="32">I hope this letter finds you strong in the faith. I also hope that circumstances will soon make it possible for me to meet each of you, not as an integrationist or a civil rights leader, but as a fellow clergyman and a Christian brother. Let us all hope that the dark clouds of racial prejudice will soon pass away and the deep fog of misunderstanding will be lifted from our fear-drenched communities and in some not too distant tomorrow the radiant stars of love and brotherhood will shine over our great nation with all of their scintillating beauty.</div>
+<div class="segment" data-delay="33">Yours for the cause of Peace and Brotherhood,</div>
+<div class="segment" data-delay="34">M. L. King, Jr.</div>
+  </div>
+  <div id="continue">Tap anywhere or press ENTER to continue...</div>
+  <div id="cursor"></div>
+
+  <script>
+    const segments = document.querySelectorAll('.segment');
+    let index = 0;
+    let mode = 'manual';
+
+    const highlightKeywords = (text) => {
+      return text
+        .replace(/nonviolence/gi, '<span class="highlight-liberty">nonviolence</span>')
+        .replace(/violence/gi, '<span class="highlight-death">violence</span>')
+        .replace(/nonviolent/gi, '<span class="highlight-liberty">nonviolent</span>')
+        .replace(/peace/gi, '<span class="highlight-truth">peace</span>');
+    };
+
+const showNext = () => {
+      if (index < segments.length) {
+        const segment = segments[index];
+        const originalHTML = segment.innerHTML;
+        const highlightedHTML = highlightKeywords(originalHTML);
+        
+        // Hide cursor during typing
+        const cursor = document.getElementById('cursor');
+        if (cursor) cursor.classList.add('cursor-hidden');
+        
+        segment.style.display = 'block';
+        segment.innerHTML = '';
+        
+        let charIndex = 0;
+        const typeInterval = setInterval(() => {
+          if (charIndex < highlightedHTML.length) {
+            // Add character by character, preserving HTML tags
+            segment.innerHTML = highlightedHTML.substring(0, charIndex + 1);
+            charIndex++;
+          } else {
+            clearInterval(typeInterval);
+            // Show cursor again after typing is complete
+            if (cursor) cursor.classList.remove('cursor-hidden');
+          }
+        }, 20);  // 20ms per character - adjust for faster/slower typing
+        
+        index++;
+      }
+    };
+
+    const setMode = (selectedMode) => {
+      document.getElementById('menu').style.display = 'none';
+      mode = selectedMode;
+      if (mode === 'auto') {
+        const interval = setInterval(() => {
+          showNext();
+          if (index >= segments.length) {
+            clearInterval(interval);
+          }
+        }, 2500);  // Adjust speed here (ms)
+      }
+    };
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && mode === 'manual') {
+        showNext();
+      }
+    });
+
+    document.addEventListener('click', () => {
+      if (mode === 'manual') {
+        showNext();
+      }
+    });
+  </script>
+</body>
+</html>
